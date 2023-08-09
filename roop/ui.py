@@ -382,7 +382,7 @@ def select_face(index, is_input) -> None:
             print(f'Similarity Distance between Source->Target={dist}')
 
     toggle_face_selection();
-    ROOT.wm_attributes('-disabled', False)
+    #ROOT.wm_attributes('-disabled', False)
     ROOT.focus()
 
 
